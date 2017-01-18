@@ -46,7 +46,7 @@
       }
     },
     {
-      "name": "demo-resource",
+      "name": "demo-resource1",
       "path": "data/demo-resource.csv",
       "format": "csv",
       "mediatype": "text/csv",
@@ -82,7 +82,7 @@
       }
     },
     {
-      "name": "demo-resource",
+      "name": "demo-resource2",
       "path": "data/demo-resource.csv",
       "format": "csv",
       "mediatype": "text/csv",
