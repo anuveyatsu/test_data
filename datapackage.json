@@ -44,6 +44,78 @@
         ],
         "primaryKey": "Date"
       }
+    },
+    {
+      "name": "demo-resource",
+      "path": "data/demo-resource.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Date",
+            "type": "date",
+            "description": ""
+          },
+          {
+            "name": "DEMOOpen",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "DEMOHigh",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "DEMOLow",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "DEMOClose",
+            "type": "number",
+            "description": ""
+          }
+        ],
+        "primaryKey": "Date"
+      }
+    },
+    {
+      "name": "demo-resource",
+      "path": "data/demo-resource.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Date",
+            "type": "date",
+            "description": ""
+          },
+          {
+            "name": "DEMOOpen",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "DEMOHigh",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "DEMOLow",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "DEMOClose",
+            "type": "number",
+            "description": ""
+          }
+        ],
+        "primaryKey": "Date"
+      }
     }
   ],
   "views": [
