@@ -130,7 +130,7 @@
     },
     {
       "id": "Graph",
-      "type": "Graph",
+      "type": "vega-lite",
       "state": {
         "graphType": "lines",
         "group": "Date",
