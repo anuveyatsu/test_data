@@ -25,7 +25,7 @@
         "fields": [
           {
             "name": "Date",
-            "type": "date",
+            "type": "string",
             "description": "YYYY-MM"
           },
           {
@@ -115,7 +115,7 @@
         "fields": [
           {
             "name": "Date",
-            "type": "date",
+            "type": "string",
             "description": "YYYY-MM"
           },
           {
