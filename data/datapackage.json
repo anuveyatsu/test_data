@@ -30,12 +30,12 @@
             "type": "string"
           },
           {
-            "name": "average temp in autumn",
+            "name": "autumn",
             "type": "integer"
           },
           {
-            "name": "average temp in winter",
-            "type": "string"
+            "name": "winter",
+            "type": "integer"
           }
         ]
       }
