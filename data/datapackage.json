@@ -21,11 +21,8 @@
   ],
   "views": [
     {
-      "type": "vegalite",
+      "viewType": "vega",
       "spec": {
-        "data": {
-          "resource": "random"
-        },
         "mark": "bar",
         "encoding": {
           "x": {"field": "name", "type": "ordinal"},
