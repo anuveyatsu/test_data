@@ -132,7 +132,7 @@
       "dataSource": {
         "resource": "demo-resource2"
       },
-      "viewType": "vega"
+      "viewType": "vega",
       "spec": {
         "mark": "lines",
         "encoding": {
