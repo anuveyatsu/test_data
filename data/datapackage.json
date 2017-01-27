@@ -19,25 +19,39 @@
       }
     },
     {
-      "name": "test",
-      "path": "test-data.csv",
+      "name": "demo-resource",
+      "path": "demo-resource.csv",
       "format": "csv",
       "mediatype": "text/csv",
       "schema": {
         "fields": [
           {
-            "name": "date",
-            "type": "string"
+            "name": "Date",
+            "type": "date",
+            "description": ""
           },
           {
-            "name": "autumn",
-            "type": "integer"
+            "name": "DEMOOpen",
+            "type": "number",
+            "description": ""
           },
           {
-            "name": "winter",
-            "type": "integer"
+            "name": "DEMOHigh",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "DEMOLow",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "DEMOClose",
+            "type": "number",
+            "description": ""
           }
-        ]
+        ],
+        "primaryKey": "Date"
       }
     }
   ],
