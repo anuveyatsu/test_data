@@ -121,29 +121,24 @@
   "views": [
     {
       "id": "Graph",
-      "type": "vega-lite",
-      "state": {
-        "graphType": "lines",
-        "group": "Date",
-        "series": [ "DEMOClose" ]
-      }
-    },
-    {
-      "id": "Graph",
-      "type": "vega-lite",
-      "state": {
-        "graphType": "lines",
-        "group": "Date",
-        "series": [ "DEMOHigh", "DEMOOpen" ]
-      }
-    },
-    {
-      "id": "Graph",
       "type": "Graph",
       "state": {
         "graphType": "lines",
         "group": "Date",
         "series": [ "DEMOClose", "DEMOLow", "DEMOHigh" ]
+      }
+    },
+    {
+      "dataSource": {
+        "resource": "demo-resource2"
+      },
+      "viewType": "vega"
+      "spec": {
+        "mark": "lines",
+        "encoding": {
+          "x": {"field": "Date", "type": "temporal"},
+          "y": {"field": "DEMOClose", "type": "quantitative"}
+        }
       }
     }
   ]
