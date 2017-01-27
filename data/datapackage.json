@@ -17,6 +17,28 @@
           }
         ]
       }
+    },
+    {
+      "name": "test",
+      "path": "test-data.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "date",
+            "type": "string"
+          },
+          {
+            "name": "average temp in autumn",
+            "type": "integer"
+          },
+          {
+            "name": "average temp in winter",
+            "type": "string"
+          }
+        ]
+      }
     }
   ],
   "views": [
