@@ -129,9 +129,6 @@
       }
     },
     {
-      "dataSource": {
-        "resource": "demo-resource2"
-      },
       "viewType": "vega",
       "spec": {
         "mark": "lines",
