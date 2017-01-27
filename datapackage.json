@@ -131,7 +131,7 @@
     {
       "viewType": "vega",
       "spec": {
-        "mark": "lines",
+        "mark": "line",
         "encoding": {
           "x": {"field": "Date", "type": "temporal"},
           "y": {"field": "DEMOClose", "type": "quantitative"}
